@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  /* border: 1px solid black; */
+}
+.bg-img {
+  background-image: url(./Assets/background-image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid black; */
+  padding: 14px;
+}
+
+nav ul a {
+  /* list-style-type: none; */
+  text-decoration: none;
+  margin: 10px;
+  font-size: 18px;
+  color: #808080;
+}
+
+.srch-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  /* border: 1px solid black; */
+}
+
+.primary-btn {
+  padding: 10px;
+  color: #ffffff;
+  background-color: #ed017f;
+  border-radius: 5px;
+  border: none;
+}
+
+.secondary-btn {
+  display: flex;
+  border: none;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px 15px;
+  gap: 10px;
+}
+
+.secondary-btn p {
+  padding: 5px;
+  color: #808080;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.btn-01 {
+  position: absolute;
+  left: 46%;
+  top: 10%;
+}
+
+.btn-02 {
+  position: absolute;
+  left: 85%;
+  top: 25%;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid black; */
+  /* width: 100vw; */
+  /* height: 100vh; */
+}
+.hero-img {
+  float: right;
+  width: 50vw;
+  position: absolute;
+  right: 138px;
+  bottom: 10px;
+  /* border: 1px solid black; */
+  /* width: 50%; */
+}
+
+.hero-txt {
+  /* border: 1px solid black; */
+  float: left;
+  width: 80vw;
+  /* height: auto; */
+  padding: 100px 0px 0px 100px;
+}
+.hero-details  h1 {
+  font-size: 80px;
+}
+
+.hero-details p {
+  font-size: 20px;
+  color: #808080;
+  margin-top: 20px;
+}
+.hero-btn {
+  display: flex;
+  gap: 10px;
+  /* justify-content: space-between; */
+  width: 350px;
+  margin-top: 30px;
+  /* border: 1px solid black; */
+}
+.btn-5 {
+  color: #ed017f;
+  background-color: #ffffff;
+  border: 1px solid #ed017f;
+  /* padding: 5px; */
+}
+
+.contact-detail {
+  display: flex;
+  align-content: center;
+  margin-top: 100px;
+  /* margin:100px 0px 0px 100px; */
+}
+
+.contact-detail p {
+  color: #808080;
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.contact-detail img {
+  width: 25px;
+  height: 25px;
+  margin-left: 15px;
+}
+

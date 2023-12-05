@@ -7,14 +7,14 @@
 .container {
   width: 100vw;
   height: 100vh;
-  position: relative;
+  
   /* border: 1px solid black; */
 }
 .bg-img {
   background-image: url(./Assets/background-image.png);
   background-position: center;
   background-repeat: no-repeat;
-  height: 500px;
+  height:70vh;
 
 }
 header {
@@ -66,6 +66,15 @@ nav ul a {
   font-size: larger;
 }
 
+/* .btn-1 {
+  display: flex;
+  justify-content: space-evenly;
+} */
+/* .btn-2 {
+  display: flex;
+  justify-content:end ;
+  margin-right: 120px;
+} */
 .btn-01 {
   position: absolute;
   left: 46%;
@@ -85,6 +94,14 @@ nav ul a {
   /* width: 100vw; */
   /* height: 100vh; */
 }
+.main { 
+  position: relative;
+  background-image: url(./Assets/hero-image.png);
+  background-position: right top 26px;
+  background-repeat: no-repeat;
+  background-size: 60% 100% ;
+  
+}
 .hero-img {
   float: right;
   width: 50vw;
@@ -103,11 +120,11 @@ nav ul a {
   padding: 100px 0px 0px 100px;
 }
 .hero-details  h1 {
-  font-size: 80px;
+  font-size: 70px;
 }
 
 .hero-details p {
-  font-size: 20px;
+  font-size: 24px;
   color: #808080;
   margin-top: 20px;
 }
@@ -123,7 +140,7 @@ nav ul a {
   color: #ed017f;
   background-color: #ffffff;
   border: 1px solid #ed017f;
-  /* padding: 5px; */
+  
 }
 
 .contact-detail {
